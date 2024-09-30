@@ -6,12 +6,12 @@ This is an ASP.NET Core MVC application for managing a bookstore. It provides CR
 ## Prerequisites
 
 To run this project, ensure you have the following installed:
+From NuGet Manager add the following packages:
 
-- [.NET 7.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
-- [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
-- [Visual Studio 2022](https://visualstudio.microsoft.com/vs/)
-  - ASP.NET and web development workload
-  - Entity Framework Core tools
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package Microsoft.EntityFrameworkCore.Tools
+Install-Package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation
+Install-Package Microsoft.EntityFrameworkCore.Design
 
 ## Setup Instructions
 
